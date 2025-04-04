@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PawPals - My Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left-nav">
+            <div class="nav-icons">
+                <a href="index.html" class="icon"><i class="fas fa-home"></i></a>
+                <a href="chat.html" class="icon"><i class="fas fa-comment-dots"></i></a>
+                <a href="history.html" class="icon"><i class="fas fa-history"></i></a>
+                <a href="profile.html" class="icon active"><i class="fas fa-paw"></i></a>
+                <a href="filter.html" class="icon"><i class="fas fa-filter"></i></a>
+            </div>
+        </div>
+        <div class="profile-container">
+            <div class="profile-content">
+                <div class="dog-drawing-container">
+                    <div class="drawing-header">
+                        <h2>My Dog's Profile</h2>
+                        <a href="index.html" class="close-btn"><i class="fas fa-times"></i></a>
+                    </div>
+                    <div class="dog-drawing">
+                        <div class="dog-image">🐕</div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Max</h3>
+                        <p><strong>Owner:</strong> Sarah</p>
+                        <p><strong>Breed:</strong> German Shepherd</p>
+                        <p><strong>Age:</strong> 4 years</p>
+                        <p><strong>Personality:</strong> Intelligent and protective</p>
+                        <button class="edit-profile-btn">Edit Profile</button>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <div class="stat-value">15</div>
+                            <div class="stat-label">Playdates</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">8</div>
+                            <div class="stat-label">Friends</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">4.8</div>
+                            <div class="stat-label">Rating</div>
+                        </div>
+                    </div>
+                    <div class="profile-section">
+                        <h4 class="section-title">Preferences</h4>
+                        <ul class="preferences-list">
+                            <li>
+                                <span class="preference-label">Play Style</span>
+                                <span class="preference-value">Active, Fetch</span>
+                            </li>
+                            <li>
+                                <span class="preference-label">Preferred Location</span>
+                                <span class="preference-value">Dog Parks, Open Fields</span>
+                            </li>
+                            <li>
+                                <span class="preference-label">Best Time</span>
+                                <span class="preference-value">Evenings, Weekends</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>

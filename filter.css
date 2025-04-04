@@ -1,0 +1,102 @@
+/* Filter page specific styles */
+.filter-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 60px);
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter-header h2 {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.filter-group {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.filter-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.filter-item {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-item:hover {
+    background-color: #e0e0e0;
+}
+
+.filter-item.active {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.filter-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filter-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.apply-btn {
+    background-color: #6c63ff;
+    color: white;
+}
+
+.apply-btn:hover {
+    background-color: #5a52d5;
+}
+
+.reset-btn {
+    background-color: #f0f0f0;
+    color: #4a4a4a;
+}
+
+.reset-btn:hover {
+    background-color: #e0e0e0;
+}
